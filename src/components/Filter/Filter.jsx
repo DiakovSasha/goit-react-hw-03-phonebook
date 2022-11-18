@@ -4,7 +4,7 @@ import css from './Filter.module.css';
 function Filter({ filter, value }) {
   return (
     <label className={css.label}>
-      Find contats by name
+      Find contacts by name
       <input
         className={css.input}
         type="text"
